@@ -1,0 +1,39 @@
+@import 'src/styles/variables';
+
+.articleHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  &__title {
+    color: $info_color;
+    font-size: 20px;
+    line-height: 28px;
+    word-break: break-word;
+    text-decoration: none;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+  }
+}
